@@ -1,0 +1,58 @@
+@font-face {
+    font-family: NetflixBold;
+    src: url(../fonts/NetflixSans-Bold.otf);
+}
+@font-face {
+    font-family: NetflixLight;
+    src: url(../fonts/NetflixSans-Light.otf);
+}
+@font-face {
+    font-family: NetflixMedium;
+    src: url(../fonts/NetflixSans-Medium.otf);
+}
+@font-face {
+    font-family: NetflixRegular;
+    src: url(../fonts/NetflixSans-Regular.otf);
+}
+
+:root {
+    --VermelhoAberto: rgb(219, 0, 0);
+    --preto: black;
+    --branco: #ffffff;
+    --cinza: rgb(86,77,77);
+    --vermelhoFechado:(131,16,16);
+    --fontBold: 'NetflixBold' ;
+    --fontLight: 'NetflixLight' ;
+    --fontMedium: 'NetflixMedium' ;
+    --fontRegular: 'NetflixRegular' ;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--preto);
+}
+
+#Logo{
+    width: 1%;
+    display: flex;
+    height: 10px 22px;
+}
+
+header a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: var(--fontLight);
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+#banner{
+    display: flex;
+    width: 80%;
+    height: 10px 0px;
+}
